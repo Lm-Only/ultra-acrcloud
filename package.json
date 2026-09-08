@@ -1,0 +1,27 @@
+{
+  "name": "ultra-acrcloud",
+  "version": "1.0.0",
+  "description": "Fast Acrcloud module",
+  "keywords": [
+    "Acrcloud"
+  ],
+  "homepage": "https://github.com/Lm-Only/ultra-acrcloud#readme",
+  "bugs": {
+    "url": "https://github.com/Lm-Only/ultra-acrcloud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lm-Only/ultra-acrcloud.git"
+  },
+  "license": "Apache-2.0",
+  "author": "lm-only",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node --env-file .env test/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "strict": true,
+        "declarationMap": true,
+        "noEmit": false,
+        "skipLibCheck": true,
+        "target": "esnext",
+        "esModuleInterop": true,
+        "declaration": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        "types": ["node"]
+    }
+}
