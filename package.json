@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "author": "lm-only",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/ultra-acrcloud.js",
   "scripts": {
     "test": "node --env-file .env test/test.js"
   },
